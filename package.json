@@ -1,0 +1,98 @@
+{
+  "_args": [
+    [
+      "passport-keyverify@0.0.2",
+      "/Users/philip/github/pipo"
+    ]
+  ],
+  "_from": "passport-keyverify@0.0.2",
+  "_id": "passport-keyverify@0.0.2",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/passport-keyverify",
+  "_nodeVersion": "5.0.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/passport-keyverify-0.0.2.tgz_1456977609485_0.958275866927579"
+  },
+  "_npmUser": {
+    "email": "flipture@gmail.com",
+    "name": "phutchins"
+  },
+  "_npmVersion": "3.3.6",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "passport-keyverify",
+    "raw": "passport-keyverify@0.0.2",
+    "rawSpec": "0.0.2",
+    "scope": null,
+    "spec": "0.0.2",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/passport-keyverify/-/passport-keyverify-0.0.2.tgz",
+  "_shasum": "a9c03e0f1a2bfd436ab21ade8f4dbf6723bef300",
+  "_shrinkwrap": null,
+  "_spec": "passport-keyverify@0.0.2",
+  "_where": "/Users/philip/github/pipo",
+  "author": {
+    "email": "flipture@gmail.com",
+    "name": "Philip Hutchins",
+    "url": "http://phutchins.com/"
+  },
+  "bugs": {
+    "url": "http://github.com/phutchins/passport-keyverify/issues"
+  },
+  "dependencies": {
+    "passport-strategy": "1.x.x"
+  },
+  "description": "Public/Private key pair auth verification for Passport",
+  "devDependencies": {
+    "chai": "1.x.x",
+    "chai-passport-strategy": "0.1.x",
+    "mocha": "1.x.x"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "a9c03e0f1a2bfd436ab21ade8f4dbf6723bef300",
+    "tarball": "http://registry.npmjs.org/passport-keyverify/-/passport-keyverify-0.0.2.tgz"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "homepage": "https://github.com/phutchins/passport-keyverify#readme",
+  "keywords": [
+    "passport",
+    "rsa",
+    "sha256",
+    "auth",
+    "authentication",
+    "publickey"
+  ],
+  "licenses": [
+    {
+      "type": "Apache 2",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  ],
+  "main": "./lib",
+  "maintainers": [
+    {
+      "email": "flipture@gmail.com",
+      "name": "phutchins"
+    }
+  ],
+  "name": "passport-keyverify",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/phutchins/passport-keyverify.git"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec --require test/bootstrap/node test/*.test.js"
+  },
+  "version": "0.0.2"
+}
